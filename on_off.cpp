@@ -64,7 +64,9 @@ int main(){
 		
 	//Initially turn off all LEDs
 	//Write your code here
-	red, yellow, blue = 0;
+	red = 0;
+	yellow = 0;
+	blue = 0;
 
 	//Interrupt handlers
 	//Attach the address of the ISR to the rising edge
